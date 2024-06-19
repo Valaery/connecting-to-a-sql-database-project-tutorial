@@ -1,3 +1,8 @@
+DROP TABLE IF EXISTS book_authors;
+DROP TABLE IF EXISTS books;
+DROP TABLE IF EXISTS authors;
+DROP TABLE IF EXISTS publishers;
+
 CREATE TABLE publishers(
     publisher_id INT NOT NULL,
     name VARCHAR(255) NOT NULL,
